@@ -9,5 +9,12 @@
   "root": true,
   "rules": {
     "@typescript-eslint/no-non-null-assertion": "off"
-  }
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "tailwind.config.cjs",
+    "postcss.config.cjs"
+  ]
 }

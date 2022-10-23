@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: RedHatDisplay;
   src: url("/assets/fonts/RedHatDisplayVF.woff2") format("woff2-variations");
@@ -23,8 +27,6 @@
 body,
 #app {
   min-height: 100vh;
-  color: rgb(255 255 255 / 87%);
-  background-color: rgb(0 0 0 / 100%);
 }
 
 body > * {
